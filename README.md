@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# * Ruby version 3.0.0
 
-* Ruby version
+# * System dependencies
+  gem 'devise'
+  gem 'devise-token-auth'
+  gem 'bcrypt' 
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# * Database creation
+  rails g model User email:string password:digest 
+  rake db:create 
+  rake db:migrate
+  you can check the database settings at config/database.yml
