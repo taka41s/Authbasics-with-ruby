@@ -12,3 +12,7 @@
 
 # * Database creation
   You can check the database settings at config/database.yml
+  ##Creating the database 
+    rails g model User email:string password:digest
+    rails db:create
+    rails db:migrate
