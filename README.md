@@ -8,8 +8,7 @@
 # * System dependencies
   You can check dependencies at /Gemfile
 
-#* Postgresql version 12.9
+# * Postgresql version 12.9
 
 # * Database creation
-
-  you can check the database settings at config/database.yml
+  You can check the database settings at config/database.yml
